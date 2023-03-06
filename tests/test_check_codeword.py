@@ -8,7 +8,7 @@ def test_incorrect_codeword():
     result = check_codeword("bum")
     assert result == "WRONG!"
 
-def test_incorrect_codeword():
+def test_close_codeword():
     result = check_codeword("house")
     assert result == "Close, but nope."
 
